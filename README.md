@@ -1,10 +1,12 @@
 # Kafka 0.11 Demo
 
-These are a bunch of code snippets in Scala (but using the Java clients) that demonstrate how to use the Kafka 0.11 new features
-The code is incomplete, and that's intended. The goal is to bring the focus on the new APIs only. 
-You can find the Kafka 0.11 release notes here: https://archive.apache.org/dist/kafka/0.11.0.0/RELEASE_NOTES.html
+This repository contains code snippets in Scala, using the Java clients, that demonstrate how to use the Kafka 0.11 new APIs. 
+The code is incomplete, and that's intended: the goal is to bring the focus on the new APIs only. 
 
-# Includes
+
+For more information, you can find the Kafka 0.11 release notes here: https://archive.apache.org/dist/kafka/0.11.0.0/RELEASE_NOTES.html
+
+# In this Repository
 
 - Idempotent Producer
 - Transactional Producer
@@ -15,7 +17,7 @@ You can find the Kafka 0.11 release notes here: https://archive.apache.org/dist/
 
 # And Kafka Streams?
 
-Kafka 0.11 has exactly once support for Kafka Streams. To learn about it, I'd recommend my other repo:
+Kafka 0.11 has exactly once semantics support for Kafka Streams. To learn about it, I'd recommend my other repo:
 
 https://github.com/simplesteph/kafka-streams-course 
 
